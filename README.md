@@ -23,3 +23,4 @@
 ![image](https://github.com/NDZL/OEMInfo-MAUI-Sample/assets/11386676/861d72fd-677c-4493-b662-2650c6a307b0)
 
 
+![image](https://cxnt48.com/author?ghOEMINFOmaui
