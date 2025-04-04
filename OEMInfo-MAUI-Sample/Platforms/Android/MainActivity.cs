@@ -40,7 +40,7 @@ namespace OEMInfo_MAUI_Sample
 
             base.OnPostCreate(savedInstanceState);
 
-            EMDKResults results = EMDKManager.GetEMDKManager(this, this);
+            EMDKResults results = EMDKManager.GetEMDKManager(this, this); //v2.0
 
             
         }
