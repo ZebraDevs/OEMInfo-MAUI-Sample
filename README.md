@@ -2,7 +2,9 @@
 
 ## OEMInfo-MAUI-Sample
 
-- Refer to https://github.com/ZebraDevs/OEMINFO_WITH_STAGENOW for information about how to grant the needed permissions to this app to access OEMInfo using Stagenow
+- v2.0 added self-granting access manager permission at runtime
+
+- For previous versions, refer to https://github.com/ZebraDevs/OEMINFO_WITH_STAGENOW for information about how to grant the needed permissions to this app to access OEMInfo using Stagenow
 
 - To create a APK:
     - Switch to Release
