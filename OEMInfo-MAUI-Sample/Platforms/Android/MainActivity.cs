@@ -1,22 +1,21 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.Database;
+using Android.Database;
+using Android.Net;
 using Android.Nfc;
 using Android.OS;
 using Android.Util;
-using Android.Widget;
-
-using System;
-using System.Data;
-using Android.Database;
-using Android.Net;
 using Android.Util;
+using Android.Widget;
 using Android.Widget;
 using CommunityToolkit.Mvvm.Messaging;
 using Symbol.XamarinEMDK;
-
-using System.Xml;
+using System;
+using System.Data;
+using System.Runtime.InteropServices;
 using System.Text;
+using System.Xml;
 
 
 namespace OEMInfo_MAUI_Sample
@@ -42,7 +41,10 @@ namespace OEMInfo_MAUI_Sample
 
             EMDKResults results = EMDKManager.GetEMDKManager(this, this); //v2.0
 
-            
+            string netVersion = RuntimeInformation.FrameworkDescription;
+            WeakReferenceMessenger.Default.Send("Framework: " + netVersion);
+
+
         }
 
         void EMDKManager.IEMDKListener.OnClosed()
